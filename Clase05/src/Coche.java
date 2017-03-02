@@ -102,6 +102,15 @@ public class Coche {
 	public static void setFabricante(String f){
 		fabricante = f;
 	}
-	
+    public static void guardarCoche(Coche c,Coche garaje[]){
+		
+		for(int i = 0;i<garaje.length;i++){
+			if(garaje[i]==null){
+				garaje[i] = c;
+				break;
+			}
+		}
+		
+	}
 	
 }
