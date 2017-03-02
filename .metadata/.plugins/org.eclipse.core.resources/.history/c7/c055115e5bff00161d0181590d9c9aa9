@@ -1,0 +1,11 @@
+
+public class Motor {
+	private int nivelAceite;
+	private int cilindrada;
+	private int potencia;
+	
+	//Constructores
+	
+	
+	
+}
