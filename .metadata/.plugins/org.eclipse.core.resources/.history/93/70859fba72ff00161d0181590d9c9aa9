@@ -33,10 +33,6 @@ public class SubFusil {
 		if(precision<95)
 		this.precision = precision;
 	}
-	@Override
-	public String toString() {
-		return "SubFusil [municion=" + municion + ", modelo=" + modelo + ", precision=" + precision + "]";
-	}
 	
 	
 	

@@ -1,14 +1,14 @@
 
-public class SubFusil {
+public class LanzaCohetes {
 	private int municion;
 	private String modelo;	
 	private int precision;
 	
 	/************* Constructores *******************/
-	public SubFusil(){
+	public LanzaCohetes(){
 		
 	}
-	public SubFusil(int municion, String modelo, int precision) {
+	public LanzaCohetes(int municion, String modelo, int precision) {
 		this.municion = municion;
 		this.modelo = modelo;
 		this.precision = precision;
@@ -32,10 +32,6 @@ public class SubFusil {
 	public void setPrecision(int precision) {
 		if(precision<95)
 		this.precision = precision;
-	}
-	@Override
-	public String toString() {
-		return "SubFusil [municion=" + municion + ", modelo=" + modelo + ", precision=" + precision + "]";
 	}
 	
 	

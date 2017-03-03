@@ -33,6 +33,10 @@ public class LanzaCohetes {
 		if(precision<95)
 		this.precision = precision;
 	}
+	@Override
+	public String toString() {
+		return "LanzaCohetes [municion=" + municion + ", modelo=" + modelo + ", precision=" + precision + "]";
+	}
 	
 	
 	
