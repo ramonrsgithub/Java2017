@@ -1,0 +1,16 @@
+
+public class LanzaCohetes {
+	
+	
+	/************* Constructores *******************/
+	
+	
+	@Override
+	public String toString() {
+		return "LanzaCohetes [municion=" + municion + ", modelo=" + modelo + ", precision=" + precision + "]";
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,11 @@
+
+public class ArrancarJuego {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Soldado soldado1 = new Soldado(100,"Mateo",100);
+		//Armar al soldado
+		
+	}
+
+}

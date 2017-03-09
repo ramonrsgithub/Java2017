@@ -1,0 +1,12 @@
+
+public class Soldado {
+
+	private int energia;
+	private String nombre;
+	private int nivelDeVida;
+	private Fusil fusil;
+	private SubFusil subfusil;
+	private LanzaCohetes lanzacohetes;
+	
+	
+}

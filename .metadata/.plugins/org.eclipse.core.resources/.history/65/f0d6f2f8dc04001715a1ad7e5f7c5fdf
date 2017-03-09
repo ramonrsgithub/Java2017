@@ -1,0 +1,8 @@
+
+public class Ejercito {
+
+	private Soldado misSoldados[];
+	private energiaTotal;
+	
+	
+}

@@ -1,0 +1,13 @@
+
+public class Fusil extends Arma {
+
+	
+		//Constructor por defecto
+		public Fusil(){
+			super();
+		}
+	
+	
+	
+	
+}

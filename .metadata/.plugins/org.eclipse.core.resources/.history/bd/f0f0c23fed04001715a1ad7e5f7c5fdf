@@ -1,0 +1,13 @@
+
+public class Mono extends Animal {
+
+	public Mono() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Mono(String raza, int fuerza, String tipoReproductivo) {
+		super(raza, fuerza, tipoReproductivo);
+		// TODO Auto-generated constructor stub
+	}
+
+}

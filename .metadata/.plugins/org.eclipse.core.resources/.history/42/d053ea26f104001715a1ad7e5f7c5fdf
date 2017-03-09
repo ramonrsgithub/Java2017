@@ -1,0 +1,13 @@
+
+public class Prueba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Animal a = new Animal("Palleiro",90,"Oviparo");
+		Mono m = new Mono("El del ZOO",80,"Vivíparo",2);
+		
+		System.out.println(m.comer());
+		System.out.println(a.comer());
+	}
+
+}

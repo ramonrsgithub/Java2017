@@ -1,0 +1,17 @@
+
+public class Animal {
+
+	private String raza;
+	private int fuerza;
+	private String tipoReproductivo;
+	
+	public Animal(){
+		
+	}
+	public Animal(String raza, int fuerza) {
+		this.raza = raza;
+		this.fuerza = fuerza;
+	}
+	
+	
+}

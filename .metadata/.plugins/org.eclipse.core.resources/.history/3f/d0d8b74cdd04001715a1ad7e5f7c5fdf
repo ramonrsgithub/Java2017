@@ -1,0 +1,11 @@
+
+public class Ejercito {
+
+	private Soldado misSoldados[];
+	private int energiaTotal;
+	
+	//Constructores
+	
+	
+	
+}

@@ -1,0 +1,17 @@
+
+public class Ejercito {
+
+	private Soldado misSoldados[];
+	private int energiaTotal;
+	
+	//Constructores
+	public Ejercito(){
+		misSoldados = new Soldado[3];
+			}
+	
+	public Ejercito(int cantidad){
+		misSoldados = new Soldado[cantidad];
+	}
+	
+	
+}

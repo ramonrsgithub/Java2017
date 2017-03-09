@@ -1,0 +1,16 @@
+
+public class Fusil extends Arma {
+
+	
+		//Constructor por defecto
+		public Fusil(){
+			super();
+		}
+	
+		public Fusil(int municion,String modelo,int precision){
+			//LLamada al constructor de la clase Arma
+			super(municion,modelo,precision);
+		}
+	
+	
+}

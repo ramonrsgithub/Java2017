@@ -1,0 +1,15 @@
+
+public class ArrancarJuego {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Soldado soldado1 = new Soldado(100,"Mateo",100);
+		Fusil f = new Fusil(40,"Colt56",50);
+		//Armar al soldado:Instanciación anónima
+		soldado1.setFusil(new Fusil(49,"Colt56",40));
+		
+		
+		
+	}
+
+}
