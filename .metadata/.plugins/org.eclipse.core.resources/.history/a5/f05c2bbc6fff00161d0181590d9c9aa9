@@ -1,9 +1,0 @@
-
-public class Fusil {
-
-	private int municion;
-	private string modelo;
-	private int precision;
-	
-	
-}
