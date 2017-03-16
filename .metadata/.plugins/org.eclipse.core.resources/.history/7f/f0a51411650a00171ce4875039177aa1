@@ -1,0 +1,28 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Producto p1 = new Ordenador("HA23","HP Omen",2000,1);
+		Producto p2 = new Lavadora("LQ10","Electrolux 20",800,200);
+		//Mostrar ordenador
+		System.out.println(p1.toString());
+		//Mostrar lavadora
+		System.out.println(p2.toString());
+		
+		//Cambiar disco duro al ordenador
+		Ordenador o = (Ordenador)p1;
+		o.setDiscoDuro(2);
+		((Ordenador)p1).setDiscoDuro(3);
+		
+		//Cambiar revoluciones a la lavadora
+		((Lavadora)p2).setRevoluciones(400);
+		
+		p1.calcularDescuento();
+		p2.calcularDescuento();
+		
+		
+	}
+
+}

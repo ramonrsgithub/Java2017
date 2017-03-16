@@ -18,7 +18,7 @@ public class Prueba {
 		
 		System.out.println(hacerHablar(c));
 		System.out.println(hacerHablar(new Mono()));
-		System.out.println(hacerHablar(new Animal()));
+		
 		
 	}
 

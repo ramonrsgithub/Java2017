@@ -1,0 +1,7 @@
+
+public class Lavadora extends Producto {
+
+	private int revoluciones;
+	
+	
+}

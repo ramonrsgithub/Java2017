@@ -1,0 +1,9 @@
+
+public class Ordenador extends Producto {
+
+	private int discoDuro;
+	
+	public Ordenador(){
+		super();
+	}
+}

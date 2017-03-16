@@ -1,0 +1,16 @@
+
+public class Ordenador extends Producto {
+
+	private int discoDuro;
+
+	public Ordenador(){
+		super();
+	}
+	
+	public Ordenador(String id,String nombre,float precio,int discoDuro){
+		super(id,nombre,precio);
+		this.discoDuro = discoDuro;
+	}
+	
+	
+}

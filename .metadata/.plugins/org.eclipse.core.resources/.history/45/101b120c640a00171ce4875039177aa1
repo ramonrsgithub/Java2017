@@ -1,0 +1,9 @@
+
+public class Impresora extends Producto{
+
+	@Override
+	
+	public void calcularDescuento(){
+		
+	}
+}

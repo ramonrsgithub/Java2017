@@ -1,0 +1,6 @@
+
+public class Ordenador extends Producto {
+
+	private int discoDuro;
+	
+}
