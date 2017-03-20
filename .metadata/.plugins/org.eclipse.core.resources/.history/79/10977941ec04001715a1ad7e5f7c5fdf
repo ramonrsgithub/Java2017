@@ -1,8 +1,0 @@
-
-public class Animal {
-
-	private String raza;
-	private int fuerza;
-	
-	
-}

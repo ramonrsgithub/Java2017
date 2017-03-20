@@ -1,7 +1,0 @@
-
-public class Canguro extends Animal {
-
-	private float volBolsa;
-	
-	
-}
