@@ -1,0 +1,21 @@
+import javax.swing.*;
+public class Ventana1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Crear un objeto JFrame
+		JFrame ventana = new JFrame("Mi primera ventana");
+		ventana.setSize(500,300);
+		ventana.setVisible(true);
+		//Cerrar la ventana
+		ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		//Agregar caja de texto
+		JTextField caja = new JTextField(40);
+		ventana.getContentPane().add(caja);
+		
+		
+	}
+
+}

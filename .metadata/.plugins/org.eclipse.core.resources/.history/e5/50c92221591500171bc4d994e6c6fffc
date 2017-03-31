@@ -1,0 +1,42 @@
+import javax.swing.*;
+import java.awt.*;
+public class MiVentana extends JFrame  {
+
+	//Controles de la ventana
+	JLabel etiqueta;
+	JTextField caja;
+	JButton btnConversorEuros;
+	JButton btnConversorDolares;
+	
+	//Constructor
+	
+	public MiVentana(){
+		
+		this.setSize(300,200);
+		this.setTitle("Mi propia Ventanita");
+		this.setLayout(new BorderLayout());
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		//Llamo a función que agrega controles
+		initComponents();
+		
+		setVisible(true);
+		
+	}
+	
+	private void initComponents(){
+		etiqueta = new JLabel("Introduzca una cantidad");
+		caja = new JTextField(20);
+		this.btnConversorDolares = new JButton("Convertir a dolares");
+		this.btnConversorEuros = new JButton("Convertir a euros");
+		
+		//Agregarlos al contentPane
+		this.getContentPane().add(etiqueta);
+		this.getContentPane().add(caja);
+		this.add(btnConversorDolares);
+		this.add(btnConversorEuros);
+		
+	}
+	
+}

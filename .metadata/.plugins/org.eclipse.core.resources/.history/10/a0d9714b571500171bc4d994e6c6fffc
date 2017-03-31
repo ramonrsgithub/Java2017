@@ -1,0 +1,13 @@
+import javax.swing.*;
+import java.awt.*;
+public class MiVentana extends JFrame  {
+
+	//Controles de la ventana
+	JLabel etiqueta;
+	JTextField caja;
+	JButton btnConversorEuros;
+	JButton btnConversorDolares;
+	
+	
+	
+}

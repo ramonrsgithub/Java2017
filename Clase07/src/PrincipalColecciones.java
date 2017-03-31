@@ -63,14 +63,7 @@ public class PrincipalColecciones {
 				pro.calcularDescuento();
 			}
 			
-			ArrayList<String> lista = new ArrayList<String>();
-			lista.
-			
-			
-			
-			
-	}
-	
-	
+			ArrayList<String> lista = new ArrayList<String>();					
+		}	
 
 }

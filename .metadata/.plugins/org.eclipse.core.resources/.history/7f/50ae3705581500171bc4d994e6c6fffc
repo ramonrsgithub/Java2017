@@ -1,0 +1,30 @@
+import javax.swing.*;
+import java.awt.*;
+public class MiVentana extends JFrame  {
+
+	//Controles de la ventana
+	JLabel etiqueta;
+	JTextField caja;
+	JButton btnConversorEuros;
+	JButton btnConversorDolares;
+	
+	//Constructor
+	
+	public MiVentana(){
+		
+		this.setSize(300,400);
+		this.setTitle("Mi propia Ventanita");
+		this.setLayout(new FlowLayout());
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		//Llamo a función que agrega controles
+		initComponents();
+		
+	}
+	
+	private void initComponents(){
+		
+	}
+	
+}

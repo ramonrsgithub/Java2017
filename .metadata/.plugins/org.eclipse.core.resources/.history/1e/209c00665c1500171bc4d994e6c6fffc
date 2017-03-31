@@ -1,0 +1,59 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+public class MiVentana extends JFrame implements ActionListener  {
+
+	//Controles de la ventana
+	JLabel etiqueta;
+	JTextField caja;
+	JButton btnConversorEuros;
+	JButton btnConversorDolares;
+	double euros;
+	double dolares;
+	
+	//Constructor
+	
+	public MiVentana(){
+		
+		this.setSize(300,200);
+		this.setTitle("Mi propia Ventanita");
+		this.setLayout(new FlowLayout());
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		//Llamo a función que agrega controles
+		initComponents();
+		
+		setVisible(true);
+		
+	}
+	
+	private void initComponents(){
+		etiqueta = new JLabel("Introduzca una cantidad");
+		caja = new JTextField(20);
+		this.btnConversorDolares = new JButton("Convertir a dolares");
+		this.btnConversorEuros = new JButton("Convertir a euros");
+		
+		//Agregarlos al contentPane
+		this.getContentPane().add(etiqueta);
+		this.getContentPane().add(caja);
+		this.add(btnConversorDolares);
+		this.add(btnConversorEuros);
+		
+		//Agregar actionlisteners
+		this.btnConversorEuros.addActionListener(this);
+		this.btnConversorDolares.addActionListener(this);
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		
+		euros = Double.parseDouble(caja.getText());
+		dolares = euros*0.89;
+		caja.setText(Double.toString(dolares));
+	}
+	
+}
