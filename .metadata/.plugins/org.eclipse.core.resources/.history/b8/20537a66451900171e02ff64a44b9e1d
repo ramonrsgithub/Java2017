@@ -1,0 +1,18 @@
+import java.sql.*;
+import javax.sql.*;
+public class Conexion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Definir la cadena de conexion
+		try{
+		Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/pruebas","root","");
+		System.out.println("Ok, conectado");
+		}
+		catch(Exception e){
+			System.out.println("Error en la conexión");
+		}
+	}
+
+}
